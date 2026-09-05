@@ -1,0 +1,44 @@
+window { background: #101012; color: #eee9e6; }
+headerbar { background: #101012; border: none; box-shadow: none; min-height: 34px; }
+.title { font-size: 24px; font-weight: 800; letter-spacing: 4px; }
+.eyebrow { color: #ff8355; font-size: 11px; font-weight: 700; letter-spacing: 2px; }
+.muted { color: #999396; font-size: 12px; }
+.small { font-size: 11px; }
+.section-title { font-size: 17px; font-weight: 700; }
+.hero { background: linear-gradient(120deg, #371c16, #211619 60%, #18151a); border: 1px solid #673422; border-radius: 24px; padding: 20px 26px; }
+.hero-title { font-size: 35px; font-weight: 800; color: #fff2e8; }
+.hero-note { color: #d4a99a; font-size: 12px; }
+.panel { background: #19191d; border: 1px solid #2b2a30; border-radius: 20px; padding: 20px; }
+.preset { border-radius: 17px; padding: 15px; background: #1d1c21; border: 1px solid #333138; min-height: 66px; box-shadow: none; }
+.preset:hover { background: #28252b; border-color: #74616a; }
+.preset.selected { background: #332019; border: 2px solid #ff7443; padding: 14px; }
+.preset-name { font-size: 17px; font-weight: 700; color: #f5ede8; }
+.preset-note { font-size: 10px; color: #aaa0a2; }
+.pill { background: #372a24; color: #ffb192; border-radius: 12px; padding: 5px 10px; font-size: 11px; }
+button { transition: 120ms ease; }
+button:disabled { opacity: 0.5; }
+.primary { background: #ff6b35; color: #1d100b; border: none; border-radius: 13px; padding: 12px 18px; font-weight: 800; box-shadow: none; }
+.primary:hover { background: #ff8a5b; }
+.soft { background: #2b282f; color: #eee5e0; border: 1px solid #413943; border-radius: 12px; padding: 10px 15px; box-shadow: none; }
+.soft:hover { background: #3b323a; }
+.sleep { background: #23212f; border: 1px solid #49425f; border-radius: 16px; padding: 16px 23px; color: #e4d9ff; box-shadow: none; }
+.sleep:hover { background: #322b43; }
+switch { background: #35333d; border: none; }
+switch:checked { background: #f16a39; }
+switch slider { min-width: 20px; min-height: 20px; margin: 2px; background: #f5e8df; border: none; }
+scale trough { background: #35313a; min-height: 5px; border-radius: 8px; }
+scale highlight { background: #ff7847; }
+scale slider { background: #ffc6a9; min-width: 16px; min-height: 16px; border: none; }
+entry { color: #eee9e6; caret-color: #ff7847; background: #131216; border: 1px solid #44343c; border-radius: 10px; min-height: 33px; padding: 2px 10px; }
+separator { background: #302c33; min-height: 1px; }
+.device-name { font-size: 13px; font-weight: 650; }
+.device-icon { color: #f38a62; background: #2c2424; border-radius: 11px; padding: 10px; }
+.status { color: #b0a3a4; font-size: 12px; }
+.error { color: #ff9188; }
+.stat-value { font-size: 19px; font-weight: 700; color: #ffd9bd; }
+.linkbutton { background: transparent; color: #be9fa0; border: none; box-shadow: none; padding: 6px; }
+
+scrollbar slider { min-width: 6px; min-height: 6px; }
+scrollbar, scrollbar trough { background: #101012; border: none; }
+scrollbar slider { background: #514046; border: none; border-radius: 6px; }
+scrollbar slider:hover { background: #9b6049; }

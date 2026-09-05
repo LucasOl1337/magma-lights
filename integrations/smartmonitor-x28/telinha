@@ -1,0 +1,14 @@
+#!/bin/sh
+panel_root="$HOME/.local/share/smartmonitor-x28"
+case "${1:-off}" in
+  lava|on) exec systemctl --user restart smartmonitor-lava.service ;;
+  off)
+    systemctl --user stop smartmonitor-lava.service || exit 1
+    exec python3 "$panel_root/lcd-control.py" off
+    ;;
+  status)
+    systemctl --user is-active smartmonitor-lava.service
+    if [ -f "$panel_root/lava/live.json" ]; then cat "$panel_root/lava/live.json"; fi
+    ;;
+  *) echo 'Uso: telinha {lava|on|off|status}' >&2; exit 2 ;;
+esac
